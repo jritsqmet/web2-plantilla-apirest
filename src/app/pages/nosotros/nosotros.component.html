@@ -1,1 +1,8 @@
-<p>nosotros works!</p>
+<h1>NOSOTROS</h1>
+{{ nosotros | json}}
+
+@for( item of nosotros; track item){
+    <div>
+        Nombre: {{item.nombre}}
+    </div>
+}
