@@ -1,1 +1,23 @@
-<p>galeria works!</p>
+<div class="row">
+    @for (item of personal; track item) {
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <a href="{{item.images.main}}">
+                <img src="{{item.images.main}}" alt="Lights" height="100">
+                
+            </a>
+            <div class="caption">
+                <p>
+                    Nombre: {{item.name.first}} {{item.name.middle}} {{item.name.last}} <br>
+                    Especie: {{item.species}}
+                    <br>
+                    <button class="btn btn-primary" [routerLink]="['/personal', item.id]">
+                        Ver Detalles
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+    }
+
+</div>
