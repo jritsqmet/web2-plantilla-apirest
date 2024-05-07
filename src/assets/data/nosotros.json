@@ -1,18 +1,9 @@
 {
-  "nosotros":[
+  "nosotros": [
+   
     {
-      "id":1,
-      "nombre": "Juan Paz",
-      "edad": 19
-    },
-    {
-      "id":2,
-      "nombre": "Ana Paz",
-      "edad": 22
-    },
-    {
-      "id":3,
-      "nombre": "María Cruz",
+      "id": "7",
+      "nombre": "Silvana",
       "edad": 21
     }
   ]
