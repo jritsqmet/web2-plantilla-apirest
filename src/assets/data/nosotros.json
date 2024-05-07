@@ -1,10 +1,29 @@
 {
   "nosotros": [
-   
     {
-      "id": "7",
+      "id": "1",
       "nombre": "Silvana",
       "edad": 21
+    },
+    {
+      "nombre": "María",
+      "edad": 45,
+      "genero": "masculino",
+      "id": "2"
+    },
+    {
+      "id": "88",
+      "nombre": "Juan Perez",
+      "edad": 23,
+      "genero": "masculino",
+      "python": true
+    },
+    {
+      "id": "35",
+      "nombre": "María Gonzales",
+      "edad": 32,
+      "genero": "femenino",
+      "cpp": true
     }
   ]
 }
