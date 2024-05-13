@@ -1,8 +1,9 @@
-<h1>NOSOTROS</h1>
-{{ nosotros | json}}
+<div class="container">
+    <h1>NOSOTROS</h1>
+    <!--{{ nosotros | json}}-->
 
-@for( item of nosotros; track item){
-    <div>
-        Nombre: {{item.nombre}}
-    </div>
-}
+    <app-formulario></app-formulario>
+
+    <hr>
+    <app-tabla></app-tabla>
+</div>

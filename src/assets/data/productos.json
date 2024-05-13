@@ -1,0 +1,23 @@
+{
+    "productos": [
+      {
+        "id": "001",
+        "nombre": "Camiseta",
+        "precio": 15.99,
+        "descripcion": "Camiseta de algodón de manga corta"
+      },
+      {
+        "id": "002",
+        "nombre": "Pantalones",
+        "precio": 29.99,
+        "descripcion": "Pantalones vaqueros ajustados"
+      },
+      {
+        "id": "003",
+        "nombre": "Zapatos deportivos",
+        "precio": 49.99,
+        "descripcion": "Zapatos deportivos para correr"
+      }
+    ]
+  }
+  

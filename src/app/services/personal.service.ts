@@ -17,8 +17,12 @@ export class PersonalService {
 
     //"https://api.sampleapis.com/futurama/characters/id"
   getPersonalUnico(id:any): Observable <any>{
-    return this.http.get(`${this.API_PERSONAL}/${id}`)
-    //return this.http.get(this.API_PERSONAL+"/"+id);
+    //return this.http.get(`${this.API_PERSONAL}/${id}`)
+    return this.http.get(this.API_PERSONAL+"/"+id);
+  }
+
+  getPersonalEspecie(especie : string):Observable <any>{
+    return this.http.get(this.API_PERSONAL);
   }
 
 }

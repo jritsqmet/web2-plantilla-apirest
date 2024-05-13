@@ -1,29 +1,45 @@
 {
   "nosotros": [
     {
-      "id": "1",
-      "nombre": "Silvana",
-      "edad": 21
-    },
-    {
-      "nombre": "María",
-      "edad": 45,
-      "genero": "masculino",
-      "id": "2"
-    },
-    {
-      "id": "88",
-      "nombre": "Juan Perez",
-      "edad": 23,
-      "genero": "masculino",
-      "python": true
-    },
-    {
       "id": "35",
       "nombre": "María Gonzales",
       "edad": 32,
       "genero": "femenino",
       "cpp": true
+    },
+    {
+      "id": "1010",
+      "nombre": "Juan",
+      "edad": 44,
+      "genero": "masculino"
+    },
+    {
+      "id": "34",
+      "name": "Juan Paz",
+      "edad": 102,
+      "genero": "femenino",
+      "python": true
+    }
+  ],
+
+  "productos":[
+    {
+      "id": "001",
+      "nombre": "Camiseta",
+      "precio": 15.99,
+      "descripcion": "Camiseta de algodón de manga corta"
+    },
+    {
+      "id": "002",
+      "nombre": "Pantalones",
+      "precio": 29.99,
+      "descripcion": "Pantalones vaqueros ajustados"
+    },
+    {
+      "id": "003",
+      "nombre": "Zapatos deportivos",
+      "precio": 49.99,
+      "descripcion": "Zapatos deportivos para correr"
     }
   ]
 }
