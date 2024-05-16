@@ -1,19 +1,20 @@
 pipeline {
     agent any
-    tools {nodejs "NODEJS"}
+    
+    environment {
+        NODEJS_HOME = tool name: 'NODEJS', type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
+        PATH = "${env.NODEJS_HOME}/bin:${env.PATH}"
+    }
+
     stages {
-        stage('Build') {
+        stage('Install dependencies') {
             steps {
                 sh 'npm install'
             }
         }
-        stage('Deliver') {
+        stage('Build') {
             steps {
-                sh 'chmod -R +rwx ./jenkins/scripts/deliver.sh'
-                sh 'chmod -R +rwx ./jenkins/scripts/kill.sh'
-                sh './jenkins/scripts/deliver.sh'
-                input message: 'Finished using the web site? (Click "Proceed" to continue)'
-                sh './jenkins/scripts/kill.sh'
+                sh 'npm run build'
             }
         }
     }
